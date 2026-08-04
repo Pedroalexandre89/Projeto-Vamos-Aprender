@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Vamos Aprender</title>
+</head>
+
+<body>
+    <h1>🌟 Vamos Aprender 🌟</h1>
+
+    <!-- Botões de categoria -->
+    <div class="botoes-categoria">
+        <button class="btn-cat" id="btn-letras">🔤 Letras</button>
+        <button class="btn-cat" id="btn-cores">🎨 Cores</button>
+        <button class="btn-cat" id="btn-figuras">🔷 Figuras</button>
+    </div>
+
+    <div class="area-conteudo">
+        <!-- 1. Placar de estrelas isolado no topo -->
+        <div style="font-size: 1.3em; margin-bottom: 10px; color: #ffb703; font-weight: bold;">
+            ⭐ Estrelas: <span id="placar-estrelas">0</span>
+        </div>
+
+        <!-- 2. Área da imagem centralizada e corrigida -->
+        <div style="display: flex; justify-content: center; align-items: center; min-height: 120px; margin: 15px 0;">
+            <img id="visual-item" src="assets/images/escola.png" alt="item de estudo" style="width: 100px; height: 100px; object-fit: contain;">
+        </div>
+
+        <!-- 3. Barra de progresso externa (Cinza) -->
+        <div style="width: 100%; background-color: #e0e0e0; height: 12px; border-radius: 6px; margin-bottom: 20px; overflow: hidden;">
+            <!-- Barra interna que vai crescer (Vermelha) -->
+            <div id="barra-progresso" style="width: 0%; height: 100%; background-color: #ff6b6b; transition: width 0.3s ease;"></div>
+        </div>
+
+        <!-- 4. Nome do item -->
+        <div class="nome-item" id="texto-item">Escolha uma opção acima!</div>
+
+        <!-- 5. Botões de ação com os IDs corretos -->
+        <button class="btn-acao" id="btn-ouvir">🎙️ Aperte para falar</button>
+        <button class="btn-acao" id="btn-falar">🔊 Ouvir</button>
+
+        <!-- Mostrar se acertou ou errou -->
+        <div id="status"></div>
+    </div>
+
+    <!-- Chamando o JS dentro da sua pasta js -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(assets/images/papel-parede.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #ff6b6b;
+    margin-bottom: 20px;
+    font-size: 2.2em;
+}
+
+.botoes-categoria {
+    margin-bottom: 25px;
+}
+
+.btn-cat {
+    padding: 12px 20px;
+    margin: 5px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-cat:hover {
+    transform: scale(1.05);
+
+}
+
+#btn-letras {
+    background: #ffd166;
+}
+
+#btn-cores {
+    background: #06d6a0;
+}
+
+#btn-figuras {
+    background: #118ab2;
+    color: white;
+}
+
+.area-conteudo {
+    background-color: rgba(26, 27, 38, 0.85);
+    /* Fundo escuro semi-transparente */
+    backdrop-filter: blur(12px);
+    /* Efeito fosco de vidro moderno */
+    -webkit-backdrop-filter: blur(12px);
+    /* Suporte para navegadores Safari */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* Borda bem fina e sutil */
+    border-radius: 24px;
+    /* Arredondamento igual ao da imagem */
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 500px;
+    width: 90%;
+    /* Espaçamento interno */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+
+}
+
+.item-grande {
+    font-size: 5em;
+    margin: 15px 0;
+
+}
+
+.nome-item {
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.btn-acao {
+    padding: 15px 25px;
+    font-size: 1.2em;
+    border-radius: 12px;
+    border: none;
+    margin: 8px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.btn-acao:active {
+    opacity: 0.8;
+}
+
+#btn-falar {
+    background: #ef476f;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#btn-ouvir {
+    background: #06d6a0;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#status {
+    margin-top: 15px;
+    font-size: 1.1em;
+    color: #555;
+    min-height: 24px;
+
+}
