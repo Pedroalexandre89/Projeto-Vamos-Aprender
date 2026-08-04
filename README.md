@@ -10,12 +10,14 @@
   <img src="https://shields.io" alt="JavaScript">
 </p>
 
+
 ---
 
 ## 📌 Sobre o Projeto
 O **Projeto Vamos Aprender** é uma aplicação web interativa desenvolvida com o objetivo de auxiliar no aprendizado de forma visual e dinâmica. O projeto utiliza elementos interativos, cores e imagens (como animais, formas geométricas e objetos) para criar uma experiência educativa e engajadora.
 
-> 🌐 **Acesse o projeto online:** [Clique aqui para visualizar o site](https://github.com/Pedroalexandre89/Projeto-Vamos-Aprender)
+>🌐 **Acesse o projeto online:** [Clique aqui para visualizar o site](https://github.io)
+
 
 ---
 
