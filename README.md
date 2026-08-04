@@ -5,10 +5,11 @@
 </p>
 
 <p align="center">
-  <img src="https://shields.io" alt="HTML5">
-  <img src="https://shields.io" alt="CSS3">
-  <img src="https://shields.io" alt="JavaScript">
+  <img src="assets/images/html.png" alt="HTML-5" width="40px">
+  <img src="assets/images/css.png" alt="CSS-3" width="40px">
+  <img src="assets/images/javascript.png" alt="JavaScript" width="40px">
 </p>
+
 
 
 
