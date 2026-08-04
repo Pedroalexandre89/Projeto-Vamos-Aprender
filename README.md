@@ -5,10 +5,11 @@
 </p>
 
 <p align="center">
-  <img src="assets/images/html.png" alt="HTML-5" width="40px">
-  <img src="assets/images/css.png" alt="CSS-3" width="40px">
-  <img src="assets/images/javascript.png" alt="JavaScript" width="40px">
+  <img src="https://jsdelivr.net" alt="HTML5" width="50" height="50">
+  <img src="https://jsdelivr.net" alt="CSS3" width="50" height="50">
+  <img src="https://jsdelivr.net" alt="JavaScript" width="50" height="50">
 </p>
+
 
 
 
