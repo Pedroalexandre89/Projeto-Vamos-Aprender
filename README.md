@@ -5,10 +5,11 @@
 </p>
 
 <p align="center">
-  <img src="https://jsdelivr.net" alt="HTML5" width="50" height="50">
-  <img src="https://jsdelivr.net" alt="CSS3" width="50" height="50">
-  <img src="https://jsdelivr.net" alt="JavaScript" width="50" height="50">
+  <img src="https://shields.io" alt="HTML5">
+  <img src="https://shields.io" alt="CSS3">
+  <img src="https://shields.io" alt="JavaScripts">
 </p>
+
 
 
 
