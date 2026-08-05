@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <img src="https://shields.io" alt="HTML5">
-  <img src="https://shields.io" alt="CSS3">
-  <img src="https://shields.io" alt="JavaScripts">
+  <img src="https://shields.io" alt="html5">
+  <img src="https://shields.io" alt="css3">
+  <img src="https://shields.io" alt="javascripts">
 </p>
 
 
